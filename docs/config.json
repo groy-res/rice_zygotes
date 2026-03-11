@@ -1,10 +1,10 @@
 {
   "assemblies": [
     {
-      "name": "nippon",
+      "name": "Nipponbare",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "nippon-ReferenceSequenceTrack",
+        "trackId": "Nipponbare-ReferenceSequenceTrack",
         "adapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
@@ -23,10 +23,10 @@
       }
     },
     {
-      "name": "kitaake",
+      "name": "Kitaake",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "kitaake-ReferenceSequenceTrack",
+        "trackId": "Kitaake-ReferenceSequenceTrack",
         "adapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
@@ -57,12 +57,12 @@
         "type": "LinearGenomeView",
         "init": {
           "loc": "5:14,782,881..14,785,542",
-          "assembly": "kitaake",
+          "assembly": "Nipponbare",
           "trackSelectorType": "hierarchical",
           "trackSelectorCollapsed": false,
           "tracks": [
             
-            "Genes",
+            "Nipponbare Genes",
             "egg_merged_coverage",
             "fertilized_ovary_merged_coverage",
             "seedling_merged_coverage",
@@ -77,8 +77,8 @@
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "Genes",
-      "name": "Genes",
+      "trackId": "Nipponbare Genes",
+      "name": "Nipponbare Genes",
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
@@ -94,14 +94,36 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Kitaake Genes",
+      "name": "Kitaake Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/IRGSP-1.0_representative/all.gff3.sorted.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Kitaake"
       ]
     },
     {
       "trackId": "egg_merged_coverage",
       "name": "Egg Coverage (Merged)",
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ],
       "type": "QuantitativeTrack",
       "autoscale": "local,clipped_global,global,z_score",
@@ -138,7 +160,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -163,7 +185,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -188,7 +210,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -213,7 +235,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -238,7 +260,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -263,7 +285,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -288,14 +310,14 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
       "trackId": "fertilized_ovary_merged_coverage",
       "name": "Fertilized Ovary Coverage (Merged)",
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ],
       "type": "QuantitativeTrack",
       "autoscale": "local,clipped_global,global,z_score",
@@ -332,7 +354,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -357,7 +379,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -382,7 +404,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -407,14 +429,14 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
       "trackId": "seedling_merged_coverage",
       "name": "Seedling Coverage (Merged)",
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ],
       "type": "QuantitativeTrack",
       "autoscale": "local,clipped_global,global,z_score",
@@ -451,7 +473,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -476,7 +498,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -501,7 +523,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -526,7 +548,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -551,7 +573,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -576,7 +598,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -601,14 +623,14 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
       "trackId": "sperm_merged_coverage",
       "name": "Sperm Coverage (Merged)",
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ],
       "type": "QuantitativeTrack",
       "autoscale": "local,clipped_global,global,z_score",
@@ -645,7 +667,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -670,7 +692,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -695,7 +717,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -720,7 +742,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -745,7 +767,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -770,7 +792,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -795,7 +817,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -820,7 +842,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -845,14 +867,14 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
       "trackId": "unfertilized_ovary_merged_coverage",
       "name": "Unfertilized Ovary Coverage (Merged)",
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ],
       "type": "QuantitativeTrack",
       "autoscale": "local,clipped_global,global,z_score",
@@ -889,7 +911,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -914,7 +936,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -939,7 +961,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -964,14 +986,14 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
       "trackId": "zygote_merged_coverage",
       "name": "Zygote Coverage (Merged)",
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ],
       "type": "QuantitativeTrack",
       "autoscale": "local,clipped_global,global,z_score",
@@ -1008,7 +1030,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -1033,7 +1055,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -1058,7 +1080,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -1083,7 +1105,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -1108,7 +1130,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -1133,7 +1155,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     },
     {
@@ -1158,7 +1180,7 @@
         }
       },
       "assemblyNames": [
-        "nippon", "kitaake"
+        "Nipponbare"
       ]
     }
   ]
