@@ -30,15 +30,15 @@
         "adapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
-            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna.gz",
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/kitaake_genome/cleaned_kitaake_assembly_jbrowse_format.fna.gz",
             "locationType": "UriLocation"
           },
           "faiLocation": {
-            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna.gz.fai",
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/kitaake_genome/cleaned_kitaake_assembly_jbrowse_format.fna.gz.fai",
             "locationType": "UriLocation"
           },
           "gziLocation": {
-            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/kitaake_genome/cleaned_kitaake_assembly.fna.gz.gzi",
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/kitaake_genome/cleaned_kitaake_assembly_jbrowse_format.fna.gz.gzi",
             "locationType": "UriLocation"
           }
         }
