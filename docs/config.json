@@ -1065,12 +1065,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/tracks_sorted/zygote/zygote_rep1.24.sorted.bed.gz",
+          "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/tracks_sorted/zygote/zygote_rep1.24.sorted.bed.gz?v=2",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/tracks_sorted/zygote/zygote_rep1.24.sorted.bed.gz.tbi",
+            "uri": "https://data.cyverse.org/dav-anon/iplant/home/groyres/irgsp1/tracks_sorted/zygote/zygote_rep1.24.sorted.bed.gz.tbi?v=2",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
